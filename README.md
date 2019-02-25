@@ -1,2 +1,2 @@
-# TareasPoo
-Programas realizados en la materia de Programacion Orientado a Objetos por el alumno Calderon Gastelum Sergio Leonel.
+# Programación Orientado a Objetos (POO)
+Programas realizados en la materia de Programación Orientado a Objetos.
