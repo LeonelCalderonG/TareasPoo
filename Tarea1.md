@@ -81,4 +81,4 @@ Sinceramente no.
 ## Escribe una propuesta de una máquina que venda distintos artículos y haz el diagrama de       clases del sistema que propones.
 Maquina Expendedora, en mi instítuto encontramos ciertas máquina expendedora con ciertos productos y precios en cualquier punto dentro del plantel, propongo en cambiar ciertas máquinas ya que he notado que no todas funcionan perfectamente como la que se encuentra por el edificio del audiovisual 1 y traer nuevas máquinas que funcionen con mayor eficiencia y renovada. 
 
-
+![](https://serving.photos.photobox.com/68986745d5ca8c3ce18d7c77520ad56d8e84abc653e497c64ed2fa1fd17d90fc3256f019.jpg)
