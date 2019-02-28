@@ -52,3 +52,59 @@ El operador "New" tiene como tarea cumplir con la función de malloc.
 El operador "New" tiene como dos funciones que se utilizan en Programación Orientado a Objetos (POO), lo cual son los siguientes:
 1. Se utiliza para crear instancias de tipo anónimos.
 2. Permite invocar un constructor predeterminado para tipos de valor.
+
+## ==2.3 Referencia al objeto actual.==  
+La palabra clave "this" hace referencia a la instancia actual de la clase.
+
+## ==2.4 Métodos: declaración, mensajes, paso de parámetros, retorno de valores.
+## Parámetros de métodos (Referencia de C#)
+Los parámetros en declaración "in, ref, out" van al método con el nombre de valor. Este puede cambiar, pero al cambiarlo se perderá cuando se devuelva el control al procedimiento que se hizo.
+Si se usa palabras claves de parámetros de metodo en la declaración puede ser modificado el comportamiento de éste.
+1. params: específica que este parámetro toma un número aleatorio.
+2. in: pasa por referencia, pero solo se lee por el método llamado.
+3. ref: pasa por referencia y puede leerse o escrito por el método llamado.
+4. out: pasa por referencia y se escribe por medio del método llamado.
+
+## Params (Referencia de C#)
+Puede especificar un parámetro de método que escoge un número aleatorio de argumentos.
+También puede enviar una lista dividia en comas de tipo en que se específico o una matríz. También puede no hacerlo, en caso de no enviar nada la longitud de la lista lo tomará como 0.
+Esto no permite parámetros adicionales después de la palabra clave en un método y solo permite la palabra clave en una declaración de método.
+El tipo de parámetro debe de ser una matríz unidimensional, de lo contrario, se producirá un error de compilación.
+
+## Out (Referencia de C#)
+Se puede utilizar en dos contextos:
+1. Como modificador de parámetro que se encarga de transferir un argumento a un método dandole      referencia que un valor.
+2. Declarando el parámetro de tipo genérico para interfaces y delegados, lo cual da entender que    un parámetro es covariante. 
+
+## Ref (Referencia de C#)
+Indica un valor que paso por referencia. Se puede utilizar en cuatro contexto:
+1. En una firma del método y llamado método para pasar un argumento a un método referido.
+2. En una firma del método que devuelve un valor al creador de la llamada por medio de una          referencia.
+3. En un cuerpo de miembro, para indicar que un valor devuelto se almacene de manera local como     referencia que el creador de la llamada intente modificarlo hasta de manera general.
+4. En una declaración "Struct" para declararlo en "Ref struct".
+
+## ==2.5 Constructores y destructores: declaración, uso y aplicaciones.==
+## Utilizar constructores (Guía de programación de C#)
+Los constructores son métodos de una clase que se ejecutan cuando se crea un objeto de cualquier tipo. Los constructores tienen el nombre similar de la clase y empiezan los miembros de datos del nuevo objeto.
+Los constructores para los tipos struct son iguales a los constructores de clases, pero los tipos struct no pueden contener un constructor predeterminado porque el compilador otorga uno.
+Tanto las clases como las structs pueden definir constructores que acepten parámetros. Se debe llamar a constructores que toman parámetros a través de una instrucción new o base. Las clases y las structs también pueden definir varios constructores.
+
+Los constructores se pueden marcar como public, private, protected, internal o protectedinternal. Estos modificadores de acceso definen cómo los usuarios de la clase pueden construir la clase.
+
+Un constructor se puede declarar como estático mediante la palabra clave static. Se llama automáticamente a los constructores estáticos de forma inmediata antes de que se tenga acceso a cualquier campo estático.
+
+## ==2.6 Sobrecarga de métodos.==
+Ver el ejercicio siguiente.
+
+## ==2.7 Sobrecarga de operadores: Concepto y utilidad, operadores unarios y binarios.==
+Implementa una clase llamada Dado, la cual es una abstracción de los dados de algún juego.
+Debe de tener por lo menos las siguientes propiedades:
+1. Valor
+2. Color
+
+La clase debe contar por lo menos con:
+1. Dos constructores es sobrecargados.
+2. Los operadores ==, <, > sobrecargados.
+3. El uso de la palabra clave "this".
+
+Utiliza tu clase dentro del método Main de tu programa, creando tres dados, arrojándolos e imprimiendo el mejor de ellos o si alguno es igual.
